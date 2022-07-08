@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
   - {title: "Lab", url: "https://computationalimaging.rice.edu/"}
   - {file: "blog.md", title: "Blog"}
-  - {file: "README.md", title: "About Me"}
+  - {file: "aboutme.md", title: "About Me"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:bhargav.ghanekar@rice.edu"}
