@@ -1,13 +1,12 @@
 ---
-title: "About Me"
+title: "About"
 permalink: "/about/"
 layout: page
 ---
 
-I am passionate about designing and developing computational imaging and visual display systems and associated algorithms for various tasks. I am a PhD student in the Computational Imaging Lab at Rice University. 
+I am passionate about designing and developing computational imaging and display systems and associated algorithms for various tasks. Over the years, I have sought to gain knowledge from a variety of fields such as Optics, Digital Signal Processing, Computer Vision and Deep Learning. This has provided me with strong fundamentals to tackle challenging imaging and vision problems. 
 
 [Curriculum Vitae](/files/bhargavghanekar_cv.pdf) \
-[GitHub](https://www.github.com/shadowfax11) \
 [LinkedIn](https://www.linkedin.com/in/bhargavghanekar)
 
 EDUCATION: 
