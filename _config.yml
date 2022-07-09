@@ -2,7 +2,7 @@ title: "Bhargav Ghanekar"
 author: "Bhargav Ghanekar"
 description: "Computational Imaging and Sensing researcher"
 # description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
-permalink: /:title/
+permalink: /:title
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
