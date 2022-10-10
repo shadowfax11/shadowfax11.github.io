@@ -16,3 +16,6 @@ You can reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavghaneka
 {% else %}
   {% include archive.html title="Posts" %}
 {% endif %}
+
+## Updates
+Aug 2022: Happy to announce that our paper, "PS<sup>2</sup>F: Polarized Spiral PSF for Single-shot 3D sensing" won the Best Paper Award at ICCP 2022! 
