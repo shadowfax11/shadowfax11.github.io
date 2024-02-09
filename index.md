@@ -12,7 +12,7 @@ I am currently researching on imaging and vision problems to help and aid in sur
 I am interested in new and exciting opportunities, and happy to talk to people about the same.\
 You can reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavghanekar) or at [bhargav.ghanekar@rice.edu](mailto:bhargav.ghanekar@rice.edu). 
 
-<img src="/images/picture2.jpg" alt="drawing" width="400"/> 
+<img src="/images/picture2.JPG" alt="drawing" width="400"/> 
 
 ## Updates
 Aug 2022: Happy to announce that our paper, "PS<sup>2</sup>F: Polarized Spiral PSF for Single-shot 3D sensing" won the Best Paper Award at ICCP 2022! 
