@@ -15,6 +15,10 @@ You can reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavghaneka
 <img src="/images/picture2.JPG" alt="drawing" width="400"/> 
 
 ## Updates
+Feb 2024: Our paper, "Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging", a joint work between Rice and IIT Madras, has been accepted for CVPR 2024! Read the ArXiv version [here](https://arxiv.org/abs/2402.18102)
+
+Nov 2023: Our research-in-progress abstract "Vision-based tooltip tracking for automated surgical skill assessment in robotic surgery" got accepted for poster presentation at the 2024 ACS Surgeons and Engineers Meeting
+
 Aug 2022: Happy to announce that our paper, "PS<sup>2</sup>F: Polarized Spiral PSF for Single-shot 3D sensing" won the Best Paper Award at ICCP 2022! 
 
 {% if site.show_excerpts %}
