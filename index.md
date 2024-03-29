@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Home"
 ---
 
 I am a PhD student in the [Computational Imaging Lab](https://computationalimaging.rice.edu) at Rice University. 
@@ -15,7 +15,7 @@ You can reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavghaneka
 <img src="/images/picture2.JPG" alt="drawing" width="400"/> 
 
 ## Updates
-Feb 2024: Our paper, "Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging", a joint work between Rice and IIT Madras, has been accepted for CVPR 2024! Read the ArXiv version [here](https://arxiv.org/abs/2402.18102)
+Feb 2024: Our paper, "Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging", a joint work between Rice and IIT Madras, has been accepted for CVPR 2024! Read about it [here](/cads/)
 
 Nov 2023: Our research-in-progress abstract "Vision-based tooltip tracking for automated surgical skill assessment in robotic surgery" got accepted for poster presentation at the 2024 ACS Surgeons and Engineers Meeting
 
