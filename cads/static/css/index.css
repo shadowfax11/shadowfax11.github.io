@@ -82,6 +82,10 @@ body {
   display: inline-block;
 }
 
+.author-block-with-space {
+  display: inline-block;
+  white-space: pre;
+}
 .publication-banner img {
 }
 
