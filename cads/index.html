@@ -23,43 +23,30 @@
     <script>
         document.addEventListener('DOMContentLoaded', domReady);
         function domReady() {
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[0],
-                textPosition: 'top'
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[1],
-                hideTexts: true,
-                textPosition: 'center'
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[2]
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[3],
-                linesOrientation: 'vertical',
-                textPosition: 'left',
-                arrayBackgroundColorText: ['#000000', '#FFFFFF'],
-                arrayColorText: ['#FFFFFF', '#000000'],
-                linesColor: 'rgb(0,0,0)'
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[4],
-                linesOrientation: 'vertical',
-                textPosition: 'right'
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[5],
-                textPosition: 'bottom'
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[6],
-                filters: ['blur(3px)', 'grayscale(1)', 'sepia(1)', 'saturate(3)']
-            });
-            new Dics({
-                container: document.querySelectorAll('.b-dics')[7],
-                rotate: '45deg'
-            });
+            new Dics({container: document.querySelectorAll('.b-dics')[0],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[1],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[2],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[3],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[4],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[5],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[6],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[7],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[8],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[9],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[10],
+                    textPosition: 'top'});
+            new Dics({container: document.querySelectorAll('.b-dics')[11],
+                    textPosition: 'top'});
         }
     </script>
   
@@ -83,13 +70,14 @@
   
 <body>
   <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
+    <!-- <div class="hero-body"> -->
+      <!-- <div class="container is-max-desktop"> -->
         <div class="columns is-centered">
           <div class="column has-text-centered">
+            <br>
             <h1 class="title is-3 publication-title">CADS: Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging</h1>
-            <h2 class="subtitle is-5 publication-subtitle">CVPR 2024</h2>
-            <div class="is-size-6 publication-authors">
+            <h2 class="subtitle is-4 publication-subtitle">CVPR 2024</h2>
+            <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://shadowfax11.github.io/">Bhargav Ghanekar</a><sup>1</sup>,
               </span>
@@ -152,7 +140,7 @@
                     <span class="icon">
                         <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
                     </span>
-                    <span>Code (Coming soon)</span>
+                    <span>Code</span>
                     </a>
                 </span>
                 <!-- Supp Link. -->
@@ -168,19 +156,20 @@
             </div>
           </div>
         </div>
-        <!-- <div class="image-container">
-          <img src="./static/img/rice.png" alt="Rice" style="max-height: 80px;">
-          <img src="./static/img/iitm.png" alt="IITM" style="max-height: 80px;">
-        </div> -->
-      </div>
-    </div>
+        <div class="image-container">
+          <img src="./static/img/rice.png" alt="Rice" style="max-height: 50px;">
+          <img src="./static/img/iitm.png" alt="IITM" style="max-height: 50px;">
+        </div>
+      <!-- </div> -->
+    <!-- </div> -->
   </section>
   
   <section class="section">      
     <div class="container is-max-desktop">
-      <h2 class="subtitle is-6 center">
+      <h2 class="subtitle is-5 center">
         <span class="dnerf"> Coded Aperture Dual-Pixel Sensing (CADS) </span> is a novel imaging principle that can allow passive snapshot RGB-D imaging. The novelty lies in combining an optimal (end-to-end learnt) coded aperture alongwith a dual-pixel sensor, enabling a better depth vs. deblurring trade-off.
       </h2>
+      <br>
       <h2 class="title is-5 has-text-centered"> Abstract</h2>
       <h2 class="subtitle is-6 has-text-justified">
         Passive, compact, single-shot 3D sensing is useful in many application areas such as microscopy, medical imaging, surgical navigation, and autonomous driving where form factor, time, and power constraints can exist. Obtaining RGB-D scene information over a short imaging distance, in an ultra-compact form factor, and in a passive, snapshot manner is challenging. Dual-pixel (DP) sensors are a potential solution to achieve the same. DP sensors collect light rays from two different halves of the lens in two interleaved pixel arrays, thus capturing two slightly different views of the scene, like a stereo camera system. However, imaging with a DP sensor implies that the defocus blur size is directly proportional to the disparity seen between the views. This creates a trade-off between disparity estimation vs. deblurring accuracy. To improve this trade-off effect, we propose CADS (Coded Aperture Dual-Pixel Sensing), in which we use a coded aperture in the imaging lens along with a DP sensor. In our approach, we jointly learn an optimal coded pattern and the reconstruction algorithm in an end-to-end optimization setting. Our resulting CADS imaging system demonstrates improvement of >1.5dB PSNR in all-in-focus (AIF) estimates and  5-6% in depth estimation quality over naive DP sensing for a wide range of aperture settings. Furthermore, we build the proposed CADS prototypes for DSLR photography settings and in an endoscope and a dermoscope form factor. Our novel coded dual-pixel sensing approach demonstrates accurate RGB-D reconstruction results in simulations and real-world experiments in a passive, snapshot, and compact manner. 
@@ -188,47 +177,143 @@
     </div>
   </section>
   
-  <!-- <section class="hero teaser">
+  <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <h2 class="title is-2 has-text-centered">Pipeline</h2> -->
-        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-          <source src="./static/image/method.pdf">
-        </video> -->
-        <!-- <embed src="./static/image/method.pdf" type="application/pdf"> -->
-        <!-- <img src="./static/image/pipeline.png">
+        <h4 class="title is-5 has-text-centered">Principle</h4>
+        <img src="./static/img/webpage_fig1.png" alt="Principle" style="max-height: 100%; max-width: 100%; margin: 0 auto; display: block;">
         <br><br>
         <h2 class="subtitle has-text-justified">
-          The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists of a collection of images of a static scene. An adaptive Poisson disk sampling is followed to query the 3D geometry of the model, which are sparsified into n Q-GMLS kernels. Integrator points are placed over the model, including centers of Q-GMLS kernels (i.e., kernel IPs). Discretization at kernels and numerical integration at IPs enable efficient synthesis of novel and physics-based elastodynamic motions. The quadratic warping scheme helps to better retrieve the color/texture of a deformed spatial position to render the final result.
-        </h2> -->
-      <!-- </div>
+          The CADS pipeline consists of a coded aperture in the imaging lens along with a dual-pixel sensor. The coded aperture is optimized to improve the depth vs. deblurring trade-off for dual-pixel image captures. The CADS system is compact and passive, and can be used in a wide range of applications.  
+        </h2>
+        <img src="./static/img/cads_results.png" alt="Principle" style="max-height: 100%; max-width: 100%; margin: 0 auto; display: block;">
+      </div>
     </div>
-  </section> -->
+  </section>
             
   <section class="section">      
     <div class="container">
-      <!-- <h2 class="title is-5 has-text-centered">Interactive showcase</h2>
-      <br>
-      <h2 class="subtitle is-6 has-text-centered">
-        We compare our results to the Naive DP sensing case.
-      </h2> -->
       <div class="columns is-centered is-full-width">
         <div class="column">
           <div class="content">
-            <h4 class="title is-size-6" style="text-align: center;">
+            <h4 class="title is-size-5" style="text-align: center;">
               Naive DP vs CADS (AIF predictions)
             </h4>
-            <div class="b-dics" style="width: 590px">
-              <img src="./static/img/pred_aif_naivedp.png" alt="Naive DP" />
-              <img src="./static/img/pred_aif_cads.png" alt="CADS" />
+            <div class="columns">
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/pred_aif_naivedp.png" alt="Naive DP" style="display: inline-block;" />
+                  <img src="./static/img/pred_aif_cads.png" alt="CADS" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                    <img src="./static/img/pred_aif_naivesp_2.png", alt="Naive StdPix" style="display: inline-block;" />
+                    <img src="./static/img/pred_aif_naivedp_2.png" alt="Naive DP" style="display: inline-block;" />
+                    <img src="./static/img/pred_aif_cads_2.png" alt="CADS" style="display: inline-block;" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
+    </div>
+    <br>
+    <div class="container">
+      <div class="columns is-centered is-full-width">
+        <div class="column">
+          <div class="content">
+            <h4 class="title is-size-5" style="text-align: center;">
+              Naive DP vs CADS (Depth predictions)
+            </h4>
+            <div class="columns">
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/pred_depth_naivesp_1.png" alt="Naive StdPix" style="display: inline-block;" />
+                  <img src="./static/img/pred_depth_naivedp_1.png" alt="Naive DP" style="display: inline-block;" />
+                  <img src="./static/img/pred_depth_cads_1.png" alt="CADS" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/pred_depth_naivesp_2.png" alt="Naive StdPix" style="display: inline-block;" />
+                  <img src="./static/img/pred_depth_naivedp_2.png" alt="Naive DP" style="display: inline-block;" />
+                  <img src="./static/img/pred_depth_cads_2.png" alt="CADS" style="display: inline-block;" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>  
   
+  <section class="section">      
+    <!-- <div class="container"> -->
+      <div class="columns is-centered is-full-width">
+        <div class="column">
+          <div class="content">
+            <h4 class="title is-size-5" style="text-align: center;">
+              CADS Endoscopy Results
+            </h4>
+            <div class="columns">
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/endoscopy_results/im0_meas_dp_left.png" alt="CADS Left" style="display: inline-block;" />
+                  <img src="./static/img/endoscopy_results/im0_meas_dp_right.png" alt="CADS Right" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                    <img src="./static/img/endoscopy_results/im0_pred_aif.png", alt="AIF Pred" style="display: inline-block;" />
+                    <img src="./static/img/endoscopy_results/im0_pred_depth.png" alt="Depth Pred" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/endoscopy_results/im7_meas_dp_left.png" alt="CADS Left" style="display: inline-block;" />
+                  <img src="./static/img/endoscopy_results/im7_meas_dp_right.png" alt="CADS Right" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                    <img src="./static/img/endoscopy_results/im7_pred_aif.png", alt="AIF Pred" style="display: inline-block;" />
+                    <img src="./static/img/endoscopy_results/im7_pred_depth.png" alt="Depth Pred" style="display: inline-block;" />
+                </div>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/endoscopy_results/im12_meas_dp_left.png" alt="CADS Left" style="display: inline-block;" />
+                  <img src="./static/img/endoscopy_results/im12_meas_dp_right.png" alt="CADS Right" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                    <img src="./static/img/endoscopy_results/im12_pred_aif.png", alt="AIF Pred" style="display: inline-block;" />
+                    <img src="./static/img/endoscopy_results/im12_pred_depth.png" alt="Depth Pred" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                  <img src="./static/img/endoscopy_results/im14_meas_dp_left.png" alt="CADS Left" style="display: inline-block;" />
+                  <img src="./static/img/endoscopy_results/im14_meas_dp_right.png" alt="CADS Right" style="display: inline-block;" />
+                </div>
+              </div>
+              <div class="column">
+                <div class="b-dics" style="width: 100%; overflow-x: auto; white-space: nowrap; margin-bottom: 20px;">
+                    <img src="./static/img/endoscopy_results/im14_pred_aif.png", alt="AIF Pred" style="display: inline-block;" />
+                    <img src="./static/img/endoscopy_results/im14_pred_depth.png" alt="Depth Pred" style="display: inline-block;" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  </section> 
+
   <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title is-2 has-text-centered">BibTeX</h2>
