@@ -174,6 +174,11 @@
       <h2 class="subtitle is-6 has-text-justified">
         Passive, compact, single-shot 3D sensing is useful in many application areas such as microscopy, medical imaging, surgical navigation, and autonomous driving where form factor, time, and power constraints can exist. Obtaining RGB-D scene information over a short imaging distance, in an ultra-compact form factor, and in a passive, snapshot manner is challenging. Dual-pixel (DP) sensors are a potential solution to achieve the same. DP sensors collect light rays from two different halves of the lens in two interleaved pixel arrays, thus capturing two slightly different views of the scene, like a stereo camera system. However, imaging with a DP sensor implies that the defocus blur size is directly proportional to the disparity seen between the views. This creates a trade-off between disparity estimation vs. deblurring accuracy. To improve this trade-off effect, we propose CADS (Coded Aperture Dual-Pixel Sensing), in which we use a coded aperture in the imaging lens along with a DP sensor. In our approach, we jointly learn an optimal coded pattern and the reconstruction algorithm in an end-to-end optimization setting. Our resulting CADS imaging system demonstrates improvement of >1.5dB PSNR in all-in-focus (AIF) estimates and  5-6% in depth estimation quality over naive DP sensing for a wide range of aperture settings. Furthermore, we build the proposed CADS prototypes for DSLR photography settings and in an endoscope and a dermoscope form factor. Our novel coded dual-pixel sensing approach demonstrates accurate RGB-D reconstruction results in simulations and real-world experiments in a passive, snapshot, and compact manner. 
       </h2>
+      <br>
+        <h2 class="title is-5 has-text-centered">Video Demonstration</h2>
+        <div class="video-container" style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=L6AbwQtky9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
   </section>
   
@@ -314,19 +319,22 @@
     <!-- </div> -->
   </section> 
 
-  <!-- <section class="section" id="BibTeX">
+  <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title is-2 has-text-centered">BibTeX</h2>
-        <pre><code>@misc{feng2023pienerf,
-      title={PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF}, 
-      author={Yutao Feng and Yintong Shang and Xuan Li and Tianjia Shao and Chenfanfu Jiang and Yin Yang},
-      year={2023},
-      eprint={2311.13099},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}       </code></pre>
+      <pre>
+        <code>
+          @inproceedings{ghanekar2024passive,
+            title={Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging},
+            author={Ghanekar, Bhargav and Khan, Salman Siddique and Sharma, Pranav and Singh, Shreyas and Boominathan, Vivek and Mitra, Kaushik and Veeraraghavan, Ashok},
+            booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+            pages={25348--25357},
+            year={2024}
+          }
+        </code>
+      </pre>
     </div>
-  </section>  -->
+  </section> 
   
   <section class="section" id="Acknowledgement">
     <div class="container is-max-desktop content">
