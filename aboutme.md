@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-I am passionate about designing and developing computational imaging and display systems and associated algorithms for various tasks. Over the years, I have sought to gain knowledge from a variety of fields such as Optics, Digital Signal Processing, Computer Vision and Deep Learning. This has provided me with strong fundamentals to tackle challenging imaging and vision problems. 
+I am passionate about designing and developing computational imaging and display systems and associated algorithms for various tasks. Over the years, I have sought to gain knowledge from a variety of fields such as Optics, Digital Signal Processing, Computer Vision and Deep Learning. This has provided me with strong fundamentals to tackle challenging imaging and vision problems. The current problems that I have been looking at are imaging and vision challenges associated with surgery and surgical robotics. 
 
 [Curriculum Vitae](/files/bhargavghanekar_resume.pdf) \
 [LinkedIn](https://www.linkedin.com/in/bhargavghanekar)
