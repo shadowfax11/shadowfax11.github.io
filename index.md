@@ -15,7 +15,7 @@ You can reach out to me on [LinkedIn](https://www.linkedin.com/in/bhargavghaneka
 <img src="/images/picture2.JPG" alt="drawing" width="400"/> 
 
 ## Updates
-Jan 2025: Our paper, "Video-Based Surgical Tool-Tip and Keypoint Tracking Using Multi-Frame Context-Driven Deep Learning Models" got accepted at IEEE ISBI 2025! Stay tuned for updates.
+Jan 2025: Our paper, "Video-Based Surgical Tool-Tip and Keypoint Tracking Using Multi-Frame Context-Driven Deep Learning Models" got accepted at IEEE ISBI 2025! Stay tuned for updates. [Link](/mfc_tracking/)
 
 Feb 2024: Our paper, "Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging", a joint work between Rice and IIT Madras, has been accepted for CVPR 2024! Read about it [here](/cads/)
 
