@@ -162,20 +162,47 @@
           <img src="./static/img/rice.png" alt="Rice" style="max-height: 50px;">
           <!-- <img src="./static/img/iitm.png" alt="IITM" style="max-height: 50px;"> -->
         </div>
+        <br>
       <!-- </div> -->
     <!-- </div> -->
   </section>
 
-  
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <h4 class="title is-5 has-text-centered">Principle</h4>
+        <h4 class="title is-5 has-text-centered">Background</h4>
         <h2 class="subtitle is-6 has-text-justified">
-          We employ multi-frame context by refine keypoint ROI segmentation maps with additional information from previous frames, which helps to improve the tracking performance.   
+          Robotic-assisted minimally invasive surgery (RMIS) is a rapidly growing field and looks likely to be the future of surgery. Tracking trajectories of surgical tools during surgery is an important task, one which can enable several downstream use cases such as (1) automating surgical skill / expertise assessment, (2) real-time delineation of safe working zones, and (3) enabling augmented reality (AR) applications for surgical navigation. 
         </h2>
-        <!-- <img src="./static/img/webpage_fig1.png" alt="Principle" style="max-height: 100%; max-width: 100%; margin: 0 auto; display: block;"> -->
-        <!-- <br> -->
+        <h2 class="subtitle is-6 has-text-justified">
+          Existing methods for surgical tool tracking mainly rely on kinematic data from the surgical robot, which is not always available. Vision-based methods are more flexible and can be used with a wider range of surgical robots. However, existing vision-based methods are limited by the need for high-quality annotations and the lack of multi-frame context in their models. In this work, we propose a novel multi-frame context-driven deep learning model for surgical tool-tip and keypoint tracking that leverages information from previous frames to improve tracking performance.
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h4 class="title is-5 has-text-centered">Methodology</h4>
+        <h2 class="subtitle is-6 has-text-justified">
+          We track surgical tool keypoints, such as tool-tips, tool jaw-base, etc. in a two-stage manner - 
+          (1) we first segment out the tool keypoints regions (referred to as keypoint ROI segments) in the current frame using a multi-frame context-driven deep learning model, and 
+          (2) we then estimate the keypoint location as the centroid of the output segmentation blob.  
+        </h2>
+        <img src="./static/img/webpage_fig1.png" alt="Methodology" style="max-height: 100%; max-width: 100%; margin: 0 auto; display: block;">
+        <br>
+        <h2 class="subtitle is-6 has-text-justified">
+          Our keypoint ROI segmentation model is a multi-frame context-driven deep learning model that leverages information from previous frames to improve segmentation performance. 
+          Using a K-frame window as input, we predict the following intermediate maps - (1) per-frame keypoint ROI segmentation maps, (2) K-1 optical flow maps (using a pretrained RAFT model), and (3) K depth maps (using a pretrained Depth-Anything-v2[2] model).  
+        </h2>
+        <h2 class="subtitle is-6 has-text-justified">
+          We pass the maps to MFCNet, and propose two variants for MFCNet: <br>
+          MFCNet-Basic (MFCNet-B): All intermediate maps from segmentation backbone, optical flow model, and depth estimator model are concatenated and passed through a 4-layer CNN. <br>
+          MFCNet-Warp (MFCNet-W): Using the K-1 optical flow maps, the intermediate segmentation outputs of the previous frames and their corresponding depth maps are all warped to the current frame, and then concatenated to the current frame segmentation output and depth map before passing through the 4-layer CNN.
+        </h2>
+        <img src="./static/img/webpage_fig2.png" alt="Pipeline" style="max-height: 100%; max-width: 100%; margin: 0 auto; display: block;">
+        <br>
         <!-- <h4 class="title is-5 has-text-centered">Pipeline</h4> -->
         <!-- <h2 class="subtitle is-6 has-text-justified">
           We formulate a differentiable image formation model to render out images captured by a coded aperture dual-pixel sensor system. We then jointly learn an optimal coded aperture pattern and the reconstruction algorithm in an end-to-end optimization setting.
